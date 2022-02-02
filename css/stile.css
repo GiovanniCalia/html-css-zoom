@@ -13,8 +13,8 @@ body{
 header{
     display: flex;
     justify-content: flex-end;
-
 }
+
 header div{
     position: fixed;
     background-color: rgb(74, 74, 74);
@@ -41,7 +41,7 @@ main{
     align-content: flex-start;
     width: 100%;
     min-width: 250px;
-    margin: 50px auto;
+    margin: 80px auto;
 }
 
 .immagini{
@@ -102,11 +102,16 @@ footer{
     background-color:rgb(34, 34, 34);
     color: white;
     height: 80px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .container-footer-left{
     display: flex;
     align-items: center;
+    margin-left: 0.4rem;
 }
 
 .container-fas, li{
@@ -119,7 +124,7 @@ footer{
 }
 
 .fa-share-square{
-    color: green;
+    color: lightgreen;
 }
 
 .fas-flex{
@@ -150,7 +155,6 @@ li{
     padding: 0 1rem;
     background-color: rgb(74, 74, 74);
     color: red;
-    
 }
 
 
