@@ -17,7 +17,6 @@ header{
 }
 header div{
     position: fixed;
-    color: white;
     background-color: rgb(74, 74, 74);
     padding: 0.3em;
     border-radius: 5px;
@@ -28,6 +27,10 @@ header div:first-child{
     margin-right: 2.3em;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
 /* Main section*/
 
 main{
@@ -41,10 +44,21 @@ main{
 }
 
 .immagini{
-    width: 200px;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    width: 250px;
     height: 150px;
     background-color: blue;
+    margin: 5px;
+    margin-bottom: 15px;
+}
 
+.little-container-white{
+    padding: 0.3rem;
+    background-color: rgba(74, 74, 74, 0.6);
+    color: white;
 }
 
 .secondo{
